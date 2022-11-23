@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+int main(){
 int numero;
     cin >> numero;
     int risultato=0, a=1,b=1;
