@@ -13,10 +13,8 @@ int numero;
             risultato=a+b;
             cout << risultato << endl;
             a=b;
-            b=risultato;
-
-
-    }
+            b=risultato; 
+            }
     }
    return 0;
 }
