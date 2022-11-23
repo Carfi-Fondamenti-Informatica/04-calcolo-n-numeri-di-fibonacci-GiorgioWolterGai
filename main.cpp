@@ -1,22 +1,22 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-   int primo_numero = 0;
-    int secondo_numero = 0;
-    int n;
-    cin >> n;
-    int i = 2;
-    if (n >= 2) {
-        cout << 1 << endl;
-        while (i++ <= n) {
-            cout << primo_numero + secondo_numero << endl;
-            if (primo_numero < secondo_numero)
-                primo_numero += secondo_numero;
-            else secondo_numero += primo_numero;
+int numero;
+    cin >> numero;
+    int risultato=0, a=1,b=1;
+    if(numero<2) {
+        cout << "errore";
+    }else{
+        cout << "1" << endl;
+        cout << "1" << endl;
+        for (int j=0; j<=(numero-3); j++) {
+            risultato=a+b;
+            cout << risultato << endl;
+            a=b;
+            b=risultato;
+
+
         }
-        }else {
-        cout << "errore" << endl;
     }
    return 0;
 }
