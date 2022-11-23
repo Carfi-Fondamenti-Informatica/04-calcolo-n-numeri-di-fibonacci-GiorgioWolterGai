@@ -16,7 +16,7 @@ int numero;
             b=risultato;
 
 
-        }
+    }
     }
    return 0;
 }
